@@ -11,7 +11,7 @@ int main(void)
 		x = x + 2;
 	}	
 	final = x / 20;
-
+	printf("Final x: %d \n", x);
 	printf("Value: %.3f \n",final);	
 	
 	return EXIT_SUCCESS;
